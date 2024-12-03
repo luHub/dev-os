@@ -1,6 +1,6 @@
 # dev-os
 
-Adventure in Linux and more, be aware that is the verbose long-long log. I promise there will be a short-short log later. 
+Adventures in Linux, be aware that is the verbose long-long log. I promise there will be a short-short log later with condensed information. 
 
 # Resurfacing old tablet
 
