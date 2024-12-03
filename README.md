@@ -4,7 +4,7 @@ Adventures in Linux, be aware that is the verbose long-long log. I promise there
 
 # Resurfacing old tablet
 
-As a complete noob in this realm but with some insights about hardware, software and the Dunning–Kruger effect. all of this starts with reverese enginnering at hardaware level.
+As a complete noob in this realm but with some insights about hardware, software and the Dunning–Kruger effect all of this starts with reverese enginnering at hardaware level.
 
 ## Specs:
 
