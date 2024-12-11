@@ -12,7 +12,7 @@ After checking some [sources](https://www.youtube.com/watch?v=RAaB-jC85dg). Goin
 due to the assembly of the tablet, and me. 
 
 #### Attempt 1:
-- ```adb``` and internet information as primary source of information. See: [tools-android](https://github.com/luHub/dev-os/tree/main/tools-android)
+- ```adb``` as primary source of information. See: [tools-android](https://github.com/luHub/dev-os/tree/main/tools-android)
 
 #### Attempt 2:
 - Hardware eye inspection as a fallback on another tablet (to avoid breaking this one)
