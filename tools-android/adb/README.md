@@ -1,9 +1,10 @@
 # Android Debug Bridge tooling
 
-
+adb tools box to extract system information from Android Devices
 
 ## Requirements
 Linux Ubuntu / Debian as OS
+
 
 ## Scripts
 
