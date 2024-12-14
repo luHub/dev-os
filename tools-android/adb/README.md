@@ -1,10 +1,10 @@
 # Android Debug Bridge tooling
-Run the installer to get ADB up and running
+Run the installer to get adbup and running
 
 ## Requirements
 Linux Ubuntu / Debian as OS
 
-### Scripts
+## Scripts
 
-## System Info
+### System Info
 Run sys_info.sh to get the Android device system information
