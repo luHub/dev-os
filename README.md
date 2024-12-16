@@ -17,9 +17,27 @@ due to the assembly of the tablet, and me.
 #### Attempt 2:
 - Hardware eye inspection as a fallback on another tablet (to avoid breaking this one)
 
+
 ### Specs:
 
+#### Hardware:
+
 ```
-Model: GT-N8010
-SoC:
+[ro.product.model]: [GT-N8010]
+[ro.product.name]: [p4notewifixx]
+[ro.product.device]: [p4notewifiww]
+[ro.board.platform]: [exynos4]
+[ro.boot.bootloader]: [N8010XXBLK9]
+[ro.hardware]: [smdk4x12]
 ```
+
+#### Software:
+
+```
+[ro.build.version.release]: [4.1.2]
+```
+
+
+### Code:
+
+There is some code publicly available that could make our journey essier, for that lets Android 4.1.2... 
