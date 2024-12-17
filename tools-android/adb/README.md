@@ -12,4 +12,4 @@ Linux Ubuntu / Debian as OS
 Installs adb 
 
 ### System Info
-sys_info.sh gets the Android device system information. 
+sys_info.sh gets the system information. 
