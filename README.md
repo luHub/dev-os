@@ -31,12 +31,18 @@ due to the assembly of the tablet, and me.
 [ro.hardware]: [smdk4x12]
 ```
 
+### Definitions Map:
+```
+smdk4x12
+|--->   
+```
+
 #### Software:
 
 ```
 [ro.build.version.release]: [4.1.2]
+|---> 
 ```
-
 
 ### Code:
 
