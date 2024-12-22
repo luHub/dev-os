@@ -41,7 +41,7 @@ smdk4x12
 
 ```
 [ro.build.version.release]: [4.1.2]
-|---> 
+|---> Linux Version
 ```
 
 ### Code:
