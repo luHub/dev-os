@@ -41,3 +41,12 @@ due to the assembly of the tablet, and me.
 ### Code:
 
 There is some code publicly available that could make our journey essier, for that lets Android 4.1.2... 
+
+
+### Thanks to:
+
+- xda
+- stackoverflow
+- postmarketOS
+- android
+
