@@ -58,3 +58,8 @@ due to the assembly of the tablet, and me.
 - postmarketOS
 - android source code
 
+### References:
+
+https://tldp.org/LDP/lkmpg/2.4/html/index.html (Very old web page, but examples are quite nice)
+
+
