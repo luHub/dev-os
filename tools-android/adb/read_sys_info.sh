@@ -9,10 +9,9 @@ echo
 echo 
 echo "***************** Extracting *********************************************"
 echo "***************** System Info ********************************************"
-
 adb devices | tail -n2 | cut -f1  | xargs | xargs -I {} adb -s {}  shell getprop > system.info
-echo "***************** Features Info *********************************************"
+echo "***************** Features Info ******************************************"
 adb devices | tail -n2 | cut -f1  | xargs | xargs -I {} adb -s {}  shell pm list features > features.info
-echo "***************** OS Info ****************************************************"
-adb devices | tail -n2 | cut -f1  | xargs | xargs -I {} adb -s {}  shell
+echo "***************** Modules ************************************************"
+adb devices | tail -n2 | cut -f1  | xargs | xargs -I {} adb -s {}  shell ls sys/module/ > module.info
 

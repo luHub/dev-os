@@ -32,8 +32,11 @@ due to the assembly of the tablet, and me.
 ```
 
 ### Definitions Map:
+
 ```
-smdk4x12
+[ro.hardware]: [smdk4x12]
+|--->
+[ro.board.platform]: [exynos4]
 |--->   
 ```
 
@@ -46,7 +49,6 @@ smdk4x12
 
 ### Code:
 
-There is some code publicly available that could make our journey essier, for that lets Android 4.1.2... 
 
 
 ### Thanks to:
@@ -54,5 +56,5 @@ There is some code publicly available that could make our journey essier, for th
 - xda
 - stackoverflow
 - postmarketOS
-- android
+- android source code
 
