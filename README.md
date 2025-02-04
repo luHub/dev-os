@@ -47,8 +47,11 @@ due to the assembly of the tablet, and me.
 |---> Linux Version
 ```
 
-### Code:
+### Side Quest "Linux Kernel"
+- Grasp basics about the Linux Kernel 
 
+### Code:
+Need to Root the device to get more insights of the code.
 
 
 ### Thanks to:
