@@ -9,9 +9,7 @@ I will start this side quest here "https://kernelnewbies.org/" with 0 XP. First 
 
 ### Wiki
 
-``` 
 https://kernelnewbies.org/
-```
 
 ### IRC
 
