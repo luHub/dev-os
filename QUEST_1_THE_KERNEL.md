@@ -40,4 +40,4 @@ https://kernelnewbies.org/
 
 - The linux Kernl 3rd Edition 
 - Linux Device Drivers
-
+- Used books: https://biblio.co.uk/search.php?stage=1&title=Linux+kernel
