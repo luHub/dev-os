@@ -13,7 +13,7 @@ I will start this side quest here "https://kernelnewbies.org/" with 0 XP. First 
 #### Do all tutorials
 
 https://kernelnewbies.org/KernelHacking
-
+https://kernelnewbies.org/FirstKernelPatch
 
 ## Sources for Kernel Study
 
