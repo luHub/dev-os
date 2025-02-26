@@ -7,7 +7,7 @@ I will start this side quest here "https://kernelnewbies.org/" with 0 XP. First 
 
 #### Setup development environment
 
-- email
+- email (http://www.mutt.org/)
 
 
 #### Do all tutorials
