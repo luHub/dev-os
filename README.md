@@ -48,7 +48,7 @@ due to the assembly of the tablet, and me.
 ```
 
 ### Side Quest "Linux Kernel"
-- Grasp basics about the Linux Kernel, the only way to learn here is by doing. 
+- Grasp basics about the Linux Kernel, the only way to learn here is by doing. See "QUEST_1" 
 
 ### Code:
 Need to Root the device to get more insights of the code.
