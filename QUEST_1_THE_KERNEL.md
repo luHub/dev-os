@@ -7,13 +7,13 @@ I will start this side quest here "https://kernelnewbies.org/" with 0 XP. First 
 
 #### Setup development environment
 
-- email
+- email (http://www.mutt.org/)
 
 
 #### Do all tutorials
 
 https://kernelnewbies.org/KernelHacking
-
+https://kernelnewbies.org/FirstKernelPatch
 
 ## Sources for Kernel Study
 
@@ -40,4 +40,4 @@ https://kernelnewbies.org/
 
 - The linux Kernl 3rd Edition 
 - Linux Device Drivers
-
+- Used books: https://biblio.co.uk/search.php?stage=1&title=Linux+kernel
