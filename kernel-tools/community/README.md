@@ -32,9 +32,13 @@ Password: [Gmail password]
 
 #### Setup Mutt
 
+Step 1: Read the Doc
+
 http://www.mutt.org/doc/manual/#quickconfig
 
 
+Step 2: Check Samples
 
+https://github.com/muttmua/mutt/blob/master/contrib%2Fsample.muttrc-starter
 
 
