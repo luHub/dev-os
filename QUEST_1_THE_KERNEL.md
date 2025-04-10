@@ -34,7 +34,7 @@ https://kernelnewbies.org/
 - https://lwn.net/Kernel/LDD3/
 - https://events.linuxfoundation.org/lf-live-mentorship-series/
 - https://lwn.net/Kernel/LDD3/
-
+- https://www.kernel.org/doc/html/latest/
 ### Courses and Lectures
 
 - https://linux-kernel-labs.github.io/refs/heads/master/lectures/intro.html
