@@ -15,6 +15,15 @@ From "Drivers" which driver. We are going to check ones related with industrial 
 - PCIe-based
 
 
-### Mail lists
+### First Place
 
+```
+/drivers/staging/
+```
+
+```
+Commands:
+./scripts/checkpatch.pl --strict --file [file_name]
+./scripts/get_maintainer.pl [file_name]
+```
 
