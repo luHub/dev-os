@@ -1,6 +1,6 @@
 # Side Quest "Linux Kernel"
 
-After 10+ years working in software there is some hope that the disciple aquired over time is there to write or at least understand the Linux Kernel. So, citing again the Dunning–Kruger lets
+After 10+ years working in software there is some hope that the disciple acquired over time is there to write or at least understand the Linux Kernel. So, citing again the Dunning–Kruger lets
 face reality "I know nothing" which is relaxing because that means that I need to learn everything and expectations are low but not zero.
 
 I will start this side quest here "https://kernelnewbies.org/" with 0 XP. First step would be to read, no rush, just read.
