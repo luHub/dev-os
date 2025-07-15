@@ -17,12 +17,15 @@ From "Drivers" which driver. We are going to check ones related with industrial 
 
 ### First Place
 
+The suggested place to familiarize with Kernel patching for us will be:
+
 ```
 /drivers/staging/
 ```
 
+To find out more information, like TODOS, Maintainers mails lists:
+
 ```
-Commands:
 ./scripts/checkpatch.pl --strict --file [file_name]
 ./scripts/get_maintainer.pl [file_name]
 ```
