@@ -5,8 +5,8 @@ Collection of scripts to build Linux Kernels from the source code
 ## Table of Contents
 
  1. [Setup](#setup)
- 2. [Patching](#Patching)
- 3. [Configuring](#Config)
+ 2. [Patching](#patching)
+ 3. [Configuring](#ponfig)
  4. [Contributors](#contributors) 
 ## Setup
 
