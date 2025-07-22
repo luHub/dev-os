@@ -13,5 +13,10 @@ wget $url
 tar -xf $patch
 patch --dry-run -p1 < $patch_path
 
+patch -p1 < $patch_path
+
 #Apply Patch
 #xz $patch | patch p1
+
+#Verify Changes
+git diff
