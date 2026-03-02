@@ -35,4 +35,8 @@ Copy your config
 ```
 cp /boot/config-`uname -r`* .config
 CONFIG_LOCALVERSION="[version_name]"
+make menuconfig
 ```
+
+
+
