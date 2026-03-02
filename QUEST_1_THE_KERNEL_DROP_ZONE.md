@@ -30,3 +30,8 @@ To find out more information, like TODOS, Maintainers mails lists:
 ./scripts/get_maintainer.pl [file_name]
 ```
 
+Copy your config
+
+```
+cp /boot/config-`uname -r`* .config
+```
