@@ -30,6 +30,7 @@ To find out more information, like TODOS, Maintainers mails lists:
 ./scripts/get_maintainer.pl [file_name]
 ```
 
+<<<<<<< HEAD
 In 2026 patches for drivers should be submitted to stag-next branch
 ```
 git clone https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
@@ -40,9 +41,20 @@ From https://tobin.cc/blog/kernel-dev-1/ a script like this one is useful to fin
 
 ```
 ./scripts/checkpatch.pl -f --terse --strict --show-types drivers/staging/FOO/*.c
+=======
+Copy your config
+
+```
+cp /boot/config-`uname -r`* .config
+CONFIG_LOCALVERSION="[version_name]"
+make menuconfig
+>>>>>>> cdb31ce93d84e97944ee1d52480ee3faede0abc6
 ```
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> cdb31ce93d84e97944ee1d52480ee3faede0abc6
