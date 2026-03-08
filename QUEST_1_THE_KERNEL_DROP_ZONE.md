@@ -49,5 +49,9 @@ cp /boot/config-`uname -r`* .config
 CONFIG_LOCALVERSION="[version_name]"
 make menuconfig
 ```
-```
 
+Check checkpatch options
+
+```
+./scripts/checkpatch.pl --help
+```
