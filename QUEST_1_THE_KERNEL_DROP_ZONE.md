@@ -40,6 +40,7 @@ From https://tobin.cc/blog/kernel-dev-1/ a script like this one is useful to fin
 
 ```
 ./scripts/checkpatch.pl -f --terse --strict --show-types drivers/staging/FOO/*.c
+```
 
 To config Kernel
 
@@ -47,5 +48,6 @@ To config Kernel
 cp /boot/config-`uname -r`* .config
 CONFIG_LOCALVERSION="[version_name]"
 make menuconfig
+```
 ```
 
