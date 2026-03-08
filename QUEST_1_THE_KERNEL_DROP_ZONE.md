@@ -30,3 +30,19 @@ To find out more information, like TODOS, Maintainers mails lists:
 ./scripts/get_maintainer.pl [file_name]
 ```
 
+In 2026 patches for drivers should be submitted to stag-next branch
+```
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
+git branch -r
+git checkout -b staging-next Origin/staging-next
+```
+From https://tobin.cc/blog/kernel-dev-1/ a script like this one is useful to find something to patch:
+
+```
+./scripts/checkpatch.pl -f --terse --strict --show-types drivers/staging/FOO/*.c
+```
+
+
+
+
+
