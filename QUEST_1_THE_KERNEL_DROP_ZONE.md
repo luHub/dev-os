@@ -49,7 +49,3 @@ CONFIG_LOCALVERSION="[version_name]"
 make menuconfig
 ```
 
-
-
-=======
->>>>>>> cdb31ce93d84e97944ee1d52480ee3faede0abc6
