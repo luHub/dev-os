@@ -55,3 +55,7 @@ Check checkpatch options
 ```
 ./scripts/checkpatch.pl --help
 ```
+
+## Subscribe to linux stag mail list
+
+see all the emails
