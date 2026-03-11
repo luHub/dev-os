@@ -60,10 +60,16 @@ Check checkpatch options
 
 
 
-##  Submit a Patch Journey 
+
+##  Submit your first patch journey 
 
 ###1
  Read all the emails. For some weeks read all the emails to get a practical understanding on what is a good patch, and what is not.
 
 ###2 
+ Setup property your email:
+ - Use a real name.
+ - Found a small patch todo. Just a small change. 
+ - Do it against the right branch, circa 2026 is stag-next.
+ - Sent the email to your self first to test and review.
  
