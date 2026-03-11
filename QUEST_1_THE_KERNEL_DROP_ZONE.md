@@ -58,4 +58,12 @@ Check checkpatch options
 
 ## Subscribe to linux stag mail list
 
-see all the emails
+
+
+##  Submit a Patch Journey 
+
+###1
+ Read all the emails. For some weeks read all the emails to get a practical understanding on what is a good patch, and what is not.
+
+###2 
+ 
