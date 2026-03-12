@@ -63,6 +63,8 @@ Check checkpatch options
 
 ##  Submit your first patch journey 
 
+## V1:
+
 ###1
  Read all the emails. For some weeks read all the emails to get a practical understanding on what is a good patch, and what is not.
 
@@ -89,3 +91,20 @@ Sign-off: if is a checkpatch warning, explain which one.
 7. git format-patch
 8. git send-email
 9. scripts/get_maintainer.pl -f drivers/staging/<driver_name>/.
+
+
+## V2:
+
+1. git commit --amend or git rebase -i
+2. git format-patch -v 2 HEAD~1 
+3. Add a changelog: Example
+```
+Signed-off-by: Your Name <email@example.com>
+---
+Changes in v2:
+- Fixed typo in the commit message as pointed out by [Reviewer Name].
+- Simplified the if-statement in driver_main.c.
+
+drivers/staging/your_driver.c | 2 +-
+```
+4. git send-email --in-reply-to=<Message-ID>
