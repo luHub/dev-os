@@ -72,4 +72,20 @@ Check checkpatch options
  - Found a small patch todo. Just a small change. 
  - Do it against the right branch, circa 2026 is stag-next.
  - Sent the email to your self first to test and review.
- 
+
+###3
+
+1. Identify a Target
+2. Do only one change per patch
+3. Run ./scripts/checkpatch.pl your_patch.patch
+4. Run sparse analysis make C=1 or C=2
+5. Compile Test
+6. Clear Commit Message:
+```
+Subject: staging: <driver_name>: <summary>
+Body: Explain what you changed and why
+Sign-off: if is a checkpatch warning, explain which one.
+```
+7. git format-patch
+8. git send-email
+9. scripts/get_maintainer.pl -f drivers/staging/<driver_name>/.
