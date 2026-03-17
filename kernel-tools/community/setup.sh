@@ -14,4 +14,4 @@ echo "Configure muttrc, see examples in: https://github.com/muttmua/mutt/blob/ma
 echo "Configure msmtp, see msmtp examples in: https://github.com/marlam/msmtp"
 
 
-
+echo "Configure your git email. <real_name> <email> so you can sign-off the emails"
