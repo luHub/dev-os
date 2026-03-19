@@ -77,7 +77,11 @@ Check checkpatch options
 
 ###3
 
-1. Identify a Target
+1. Identify a Target, you can find TODOs. Example:
+```
+cat drivers/staging/rtl8723bs/TODO
+```
+
 2. Do only one change per patch
 3. Run ./scripts/checkpatch.pl your_patch.patch
 4. Run sparse analysis make C=1 or C=2
@@ -91,7 +95,7 @@ Sign-off: if is a checkpatch warning, explain which one.
 7. git format-patch
 8. git send-email
 9. scripts/get_maintainer.pl -f drivers/staging/<driver_name>/.
-
+10. or use b4
 
 ## V2:
 

@@ -2,6 +2,12 @@
 
 
 # (1) Do only acceptable changes per patch.
+# git checkout -b b4/<topic-name>.
+# Topic name: 
+# Example: staging-rtl8723bs-fix-indent (FIX)
+#          usb-serial-add-new-id (UPDATE)
+#          docs-kernel-hacking-typo (DOCUMENTATION)
+git checkout -b $BRANCH_NAME
 
 # (1.1) Run git in your top level repository
 git format-patch -s -v1 -1
@@ -11,7 +17,6 @@ git format-patch -s -v1 -1
 
 # (1.3) Find the recipient 
 ./scripts/get_maintainer.pl  0001-your-patch-name.patch
-
 
 
 # (2) Check Commit:  
