@@ -114,4 +114,43 @@ drivers/staging/your_driver.c | 2 +-
 4. git send-email --in-reply-to=<Message-ID>
 
 
-5. 
+
+## Code Analysis
+
+```
+drivers/staging/rtl8723bs
+```
+
+```
+core  hal  include  Kconfig  Makefile  os_dep  TODO
+```
+
+- check Entry point:
+```
+./os_dep/sdio_intf.c:module_init(rtw_drv_entry);
+```
+- check Exit point:
+```
+./os_dep/sdio_intf.c:module_exit(rtw_drv_halt);
+```
+
+```
+SDIO (Secure Digital Input Output) Interface 
+it represents the layer that allows the WiFi driver to communicate with the hardware over an SDIO bus
+
+sdio_intf is the software component responsible for managing the physical and logical connection between the Linux operating system and the Realtek WiFi chip via the SDIO protocol
+```
+```
+SDIO Protocol: "SDIO Protocol is a widely used Bus for the interfacing modem (device) to the application processor (Host). SDIO Protocol is used for Data exchange between host and device." From: https://www.prodigytechno.com/sdio-protocol
+```
+
+```
+Summary: files starts with a struct with a vendor id and supported chipset.
+Goes on Module device table.
+Device Cycle and power management.
+```
+
+- include: Global Adapter Structure, It holds the state of the hardware, the buffers, and the locks. 
+- core: "Linux request" to "Internal Logic."
+- hal: This is the "bare metal" layer. You’ll see the actual hex addresses of the hardware registers being flipped.
+- Makefile: How to build it

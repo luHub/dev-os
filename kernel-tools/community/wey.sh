@@ -1,5 +1,8 @@
 #/!bin/bash
 
+b4 prep -n test-hello-patch
+git commit -a
+b4 prep --edit-cover
 
 # (1) Do only acceptable changes per patch.
 # git checkout -b b4/<topic-name>.
@@ -8,6 +11,12 @@
 #          usb-serial-add-new-id (UPDATE)
 #          docs-kernel-hacking-typo (DOCUMENTATION)
 git checkout -b $BRANCH_NAME
+git commit -a
+git commit -s
+git commit --amend --author="New Name <new-email@example.com>"
+
+git config user.name "New Name"
+git config user.email "new-email@example.com"
 
 # (1.1) Run git in your top level repository
 git format-patch -s -v1 -1
@@ -29,8 +38,12 @@ git format-patch -s -v1 -1
 # (6) Check Sign-off
 
 
-(3) Send Patch
+#(3) Send Patch
 git send-email \
   --to-cmd="./scripts/get_maintainer.pl --norolestats" \
   --cc-cmd="./scripts/get_maintainer.pl --norolestats" \
   0001-your-patch-name.patch
+
+#(4) 
+#git show -s --format='Fixes: %h ("%s")' COMMIT_SHA
+
