@@ -151,6 +151,10 @@ Device Cycle and power management.
 
 rtw_sdio_pm_ops is ready as Realtek sdio power management operations. 
 
+functions with name IRQ manages interruptions. 
+
+other functions include calls to use/release the SDIO BUS. like "sdio_release_host"
+
 
 ```
 
