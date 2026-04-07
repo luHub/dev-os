@@ -148,6 +148,14 @@ SDIO Protocol: "SDIO Protocol is a widely used Bus for the interfacing modem (de
 Summary: files starts with a struct with a vendor id and supported chipset.
 Goes on Module device table.
 Device Cycle and power management.
+
+rtw_sdio_pm_ops is ready as Realtek sdio power management operations. 
+
+functions with name IRQ manages interruptions. 
+
+other functions include calls to use/release the SDIO BUS. like "sdio_release_host"
+
+
 ```
 
 - include: Global Adapter Structure, It holds the state of the hardware, the buffers, and the locks. 
