@@ -162,3 +162,24 @@ other functions include calls to use/release the SDIO BUS. like "sdio_release_ho
 - core: "Linux request" to "Internal Logic."
 - hal: This is the "bare metal" layer. You’ll see the actual hex addresses of the hardware registers being flipped.
 - Makefile: How to build it
+
+
+### Study a driver source code
+
+As a staring point in 2026 we will start with the Linux driver for RTL8723BS. During this period it had some action in the mailing list and we need to start somewhere. 
+
+During the first months the goal was to read the mailing lists, read the source code and find a suitable testing platform.
+
+#### RTL8723BS
+
+Realtek Wifi/Bluetooth 2.4 GHz that uses the SDIO protocol. This chip stills in production, is cheap, and has power consumption. It was popular in consumers electronics around 2016. Mostly in combination with Intel processor Atom. 
+
+### Test bench
+
+Finding a suitable device to test changes and updates to this driver can be tricky since vendors keep updating chips in subsequent versions of the same product over time. With the help of the internet, is possible to find them.
+
+For our test bench we selected the ASUS tinker board S REV 1.01 released in 2018. Newer versions don't use this chip. 
+
+Visual confirmation shown the radio chip soldered to the board. 
+
+#### Testing setup
