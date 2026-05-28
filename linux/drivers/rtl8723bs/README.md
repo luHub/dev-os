@@ -1,5 +1,8 @@
 # RTL8723BS
 
+# Testing Emulation
+
+QEMU see...
 
 # Testing Platform
 
