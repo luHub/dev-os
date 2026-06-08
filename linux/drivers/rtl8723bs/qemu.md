@@ -34,8 +34,19 @@ qemu-system-x86_64 -enable-kvm -m 4G -smp 2 -hda debian_disk.qcow2 -vga virtio
 
 ## ARM 64
 
+### Download 
+
+debian-13.5.0-arm64-netinst.iso
+
 ## ARM 32
 
+### Download 
+debian-12.9.0-armhf-netinst.jigdo
+
+```
+sudo apt install jigdo-file
+jigdo-lite debian-12.9.0-armhf-netinst.jigdo
+```
 
 
 
